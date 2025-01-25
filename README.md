@@ -42,7 +42,7 @@ It is a chatbox where we can connect with people.
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1ufTEIxhpUnW45ZYbUpJM2dhrF5a8QWLm/view?usp=sharing
-*Explain what the video demonstrates*
+The website which allows to swap skills, create profile, add a new skill and communicate with individuals.
 
 ## Team Contributions
 - Irin Ann Shaji: Code for Rating and Review system
