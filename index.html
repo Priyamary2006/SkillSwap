@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSwap - Skill Swapping Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">SkillSwap</a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="button" id="profileButton">My Profile</a></li>
+                    <li><a href="#" class="button" id="addSkillButton">Add Skill</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="main-title">Skill Swapping Platform</h1>
+        
+        <form id="searchForm" class="search-form">
+            <input type="text" id="searchInput" placeholder="Search for skills..." class="search-input">
+            <button type="submit" class="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                Search
+            </button>
+        </form>
+
+        <div id="skillList" class="skill-list"></div>
+    </main>
+
+    <div id="addSkillModal" class="modal">
+        <div class="modal-content">
+            <h2>Add a New Skill</h2>
+            <form id="addSkillForm">
+                <div class="form-group">
+                    <label for="skillTitle">Skill Title</label>
+                    <input type="text" id="skillTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="skillDescription">Description</label>
+                    <textarea id="skillDescription" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="skillCategory">Category</label>
+                    <select id="skillCategory" required>
+                        <option value="">Select a category</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Design">Design</option>
+                        <option value="Education">Education</option>
+                        <option value="Business">Business</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="button">Add Skill</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <h2>My Profile</h2>
+            <form id="profileForm">
+                <div class="form-group">
+                    <label for="profileName">Name</label>
+                    <input type="text" id="profileName" required>
+                </div>
+                <div class="form-group">
+                    <label for="profileEmail">Email</label>
+                    <input type="email" id="profileEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="profileBio">Bio</label>
+                    <textarea id="profileBio"></textarea>
+                </div>
+                <button type="submit" class="button">Save Profile</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="chatModal" class="modal">
+        <div class="modal-content chat-content">
+            <h2 id="chatTitle">Chat with <span id="chatPartner"></span></h2>
+            <div id="chatMessages" class="chat-messages"></div>
+            <form id="chatForm" class="chat-form">
+                <input type="text" id="chatInput" placeholder="Type your message..." required>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="ratingModal" class="modal">
+        <div class="modal-content">
+            <h2>Rate Skill</h2>
+            <form id="ratingForm">
+                <div class="form-group">
+                    <label for="ratingScore">Rating</label>
+                    <div class="star-rating">
+                        <span class="star" data-rating="1">&#9733;</span>
+                        <span class="star" data-rating="2">&#9733;</span>
+                        <span class="star" data-rating="3">&#9733;</span>
+                        <span class="star" data-rating="4">&#9733;</span>
+                        <span class="star" data-rating="5">&#9733;</span>
+                    </div>
+                    <input type="hidden" id="ratingScore" required>
+                </div>
+                <div class="form-group">
+                    <label for="ratingComment">Comment</label>
+                    <textarea id="ratingComment" required></textarea>
+                </div>
+                <button type="submit" class="button">Submit Rating</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
