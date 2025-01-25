@@ -47,11 +47,11 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/2.png
-*Add caption explaining what this shows*
+https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/1.png
+It is the homepage of the website.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/2.png
+
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
