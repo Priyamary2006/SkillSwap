@@ -47,7 +47,7 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/2.png
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
