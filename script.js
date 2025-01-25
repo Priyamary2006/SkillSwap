@@ -105,8 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
             `
       skillList.appendChild(skillCard)
     })
-
-    // Add event listeners to all "Request Swap" buttons
     document.querySelectorAll(".request-swap").forEach((button) => {
       button.addEventListener("click", (e) => {
         const skillId = e.target.getAttribute("data-skill-id")
@@ -114,8 +112,6 @@ document.addEventListener("DOMContentLoaded", () => {
         openChat(skill)
       })
     })
-
-    // Add event listeners to all "Rate Skill" buttons
     document.querySelectorAll(".rate-skill-btn").forEach((button) => {
       button.addEventListener("click", (e) => {
         const skillId = e.target.getAttribute("data-skill-id")
