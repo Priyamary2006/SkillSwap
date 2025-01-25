@@ -28,7 +28,6 @@ For Software:
 - Javascript,HTML,CSS
 - node.js
 - VS Code
-- 
 
 # Screenshots (Add at least 3)
 https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/1.png
