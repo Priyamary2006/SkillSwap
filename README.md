@@ -11,7 +11,7 @@
 - Member 3: Sarayu Suresh - Mar Baselios Christian College of Engineering and Technology, Peermade
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://skill-swap-ashen.vercel.app/
 
 ### Project Description
 [2-3 lines about what your project does]
