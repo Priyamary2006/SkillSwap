@@ -29,7 +29,7 @@ For Software:
 - node.js
 - VS Code
 
-# Screenshots (Add at least 3)
+# Screenshots
 https://raw.githubusercontent.com/Priyamary2006/SkillSwap/refs/heads/main/1.png
 It is the homepage of the website.
 
