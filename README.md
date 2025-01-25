@@ -26,14 +26,8 @@ A skill swapping website is a platform that allows individuals to exchange skill
 ### Technologies/Components Used
 For Software:
 - Javascript,HTML,CSS
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- node.js
+- VS Code
 
 ### Implementation
 For Software:
